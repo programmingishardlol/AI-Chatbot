@@ -1,0 +1,47 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "yo", "whats up", "good day", "How are you"],
+    "responses": ["Hello!", "Hey!", "What can I do for you", "Hi! What can I help you"]
+    },
+
+    {"tag": "goodbye", 
+    "patterns": ["See you", "Goodbye", "have a good day", "bye", "I am leaving"],
+    "responses": ["Goodbye!", "Talk to you later", "Have a nice day"]
+    },
+
+    {"tag": "thanks",
+    "patterns": ["Thanks", "thank you", "That helps a lot"],
+    "responses": ["No Problem!", "Anytime!", "You're welcome", "Happy to help!"]
+    },
+
+    {"tag": "age",
+    "patterns": ["what's your age", "how old are you", "age?", "how old"],
+    "responses": ["My age is a secret"]
+    },
+
+    {"tag": "name",
+    "patterns": ["what is your name", "whats your name", "who are you", "what should I call you"],
+    "responses": ["I'm ChatBot_0791", "You can call me ChatBot_0791", "My name is ChatBot_0791"]
+    },
+
+    {"tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+    "responses": ["24/7"]
+    },
+
+    {"tag": "shop",
+    "patterns": ["Id like to buy something", "what are your products", "what do you recommend", "what are you selling"],
+    "responses": ["nothing"]
+    },
+
+    {"tag": "help",
+    "patterns": ["what can you do", "how can you help me", "what's your role", "what is your job"],
+    "responses": ["ChatBot_0791 can chat with you, anything you want to say"]
+    },
+
+    {"tag": "funny",
+    "patterns": ["tell me a joke", "tell me something funny", "do you know a joke"],
+    "responses": ["your life"]
+    }
+
+]}
